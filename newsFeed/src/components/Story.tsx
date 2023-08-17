@@ -11,7 +11,7 @@ import { useFragment } from "react-relay";
 import type { StoryFragment$key } from "./__generated__/StoryFragment.graphql";
 
 const StoryFragment = graphql`
-  fragment Storyfragment on Story {
+  fragment StoryFragment on Story {
     title
     summary
     createdAt
